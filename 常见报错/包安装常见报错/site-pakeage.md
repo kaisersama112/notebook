@@ -68,3 +68,23 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
  	1. 卸载 torch 与torchmetrics ，及其torchversion
  	2. 三个库版本需要保持一致
 
+
+
+
+
+### 3. pip 安装onnxruntime 指定版本一直报错找不到包？
+
+
+
+**为什么报错：**
+
+​	python 版本与需要安装的onnxruntime版本不兼容 
+
+​	[Links for onnxruntime (tsinghua.edu.cn)](https://pypi.tuna.tsinghua.edu.cn/simple/onnxruntime/)
+
+![image-20231203222024893](./assets/image-20231203222024893.png)
+
+**解决方案：**
+
+1. 更改python版本（不推荐）
+2. 查询当前python版本对于版本onnxruntime版本
